@@ -1,0 +1,86 @@
+.text-photo {
+    top: 0;
+    left: 0;
+    margin: 0 6rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#photo-desc {
+    margin: 10rem auto;
+
+}
+
+#photo-desc p {
+    text-align: center;
+    width: 500px;
+}
+
+#head-bold {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#desc-light {
+    font-weight: 300;
+    font-size: 1.25rem;
+
+}
+
+#photo-with-card {
+    margin: 8rem auto;
+}
+
+#text-btn {
+    padding: 0.8em 1.8em;
+    border: 2px solid #BF9742;
+    position: relative;
+    margin: 2rem 12rem;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #BF9742;
+}
+
+#text-btn::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #E6B325;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+#text-btn:hover::before {
+    width: 105%;
+}
+
+#text-btn:hover {
+    color: #111;
+}
+
+/*Rainbow card*/
+.photo-card {
+    width: 30rem;
+    height: 38.125rem;
+    
+    background-image: url(https://assets.vogue.in/photos/628d0292b7e8453ddcdb1aab/master/w_1600%2Cc_limit/1200_03_0488_EXT_113078_RT1_v11_2362x2953.jpg);
+    object-fit: fill;
+    background-size:cover;
+    background-repeat: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
