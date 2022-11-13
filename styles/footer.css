@@ -1,0 +1,219 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+i {
+    margin-left: 10rem;
+    align-items: center;
+    text-align: center;
+    color: red;
+
+}
+
+.care-features {
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem 9rem 1rem 9rem;
+
+
+}
+
+.care-features li {
+    margin: 0;
+    padding: 0;
+}
+
+.care-features li h3 {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.care-features li p {
+    text-align: center;
+    font-weight: 500;
+    width: 300px;
+    padding: 0.5rem 2rem;
+    margin: 0 0;
+}
+
+footer {
+    /* top: 0;
+    left: 0;*/
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+        radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+    /* 
+    background: linear-gradient(89.8deg, rgb(195, 67, 129) 11%, rgb(90, 43, 186) 83.4%); */
+
+    /* background: linear-gradient(109.1deg, rgb(249, 244, 233) 3.4%, rgb(243, 220, 193) 23.5%, rgb(224, 171, 165) 45%, rgb(161, 127, 161) 65.3%, rgb(115, 106, 152) 87.2%); */
+    background-color: #2d0e03;
+    color: #FFFAE7;
+    font-size: 1rem;
+    font-family: 'Poppins', cursive;
+}
+
+.ship {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #E4C144;
+}
+
+.ship p {
+    margin: 0;
+    padding: 0.40rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #472D2D;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.footer-info {
+    padding: 0.5rem;
+    margin: 2rem 12rem 1rem 12rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-info li {
+    padding: 0 1rem 0 0rem;
+    line-height: 2rem;
+}
+
+#logo {
+    height: 80px;
+    width: 120px;
+}
+
+#company-description,
+#sub {
+    display: block;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFAE7;
+
+}
+
+a:hover {
+    color: #DFD3C3;
+}
+
+h2 {
+    padding-left: 1rem;
+    font-weight: 200;
+    color: #FFFAE7;
+    font-size: 1.25rem;
+    font-family: 'Poppins';
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: 400;
+    font-family: 'Poppins', cursive;
+    font-size: 1.25rem;
+    color: #FFFAE7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+}
+
+.sm-handles {
+    display: flex;
+    margin-top: 0;
+    padding: 0 1rem 1rem 1rem;
+    width: 12%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+svg {
+    width: 45px;
+    height: 45px;
+}
+
+hr {
+    width: 95%;
+    margin: 1rem auto;
+    border-top: 1px solid black;
+}
+
+h4 {
+    text-align: center;
+    margin: 1rem auto;
+
+}
+
+form {
+    margin-top: 2rem;
+    
+}
+
+/* From uiverse.io by @alexruix */
+.input-group {
+    position: relative;
+   }
+   
+   .input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #FEF9A7;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #212121;
+    padding: 0 .2em;
+    color: #FAC213;
+   }
